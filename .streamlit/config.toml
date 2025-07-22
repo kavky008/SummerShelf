@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#f92f47"             # Streamlit accent color (buttons, sliders)
+backgroundColor = "#fdfafd"          # Main page background
+secondaryBackgroundColor = "#e8d9ef" # Widget containers and sidebar
+textColor = "#333333"                # Body text color
+font="sans serif"
