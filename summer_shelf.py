@@ -33,7 +33,7 @@ light_pink = "rgba(249, 47, 71, 0.07)"
 
 @st.cache_data
 def load_books():
-    df = pd.read_csv("books_dataset.csv")
+    df = pd.read_csv("data/books_dataset.csv")
 
     # Function to convert string to actual Python lists
     def try_parse_list(x):
@@ -50,15 +50,15 @@ def load_books():
 
 @st.cache_data
 def load_ratings():
-    return pd.read_csv("book_rating_distribution.csv")
+    return pd.read_csv("data/book_rating_distribution.csv")
 
 @st.cache_data
 def load_review_summaries():
-    return pd.read_csv("review_summary_per_book.csv")
+    return pd.read_csv("data/review_summary_per_book.csv")
 
 @st.cache_data
 def load_reviews():
-    return pd.read_csv("review_subset.csv")
+    return pd.read_csv("data/review_subset.csv")
 
 books = load_books()
 ratings = load_ratings()
