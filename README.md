@@ -1,7 +1,7 @@
 # SummerShelf
 Summer Shelf book recommender app created for the Maven Bookshelf Challenge
 
-SummerShelf is an interactive book recommender app designed to help readers build their ideal summer reading list. Users can set preferences, view personalised recommendations, and explore review summaries to find their perfect book.
+Summer Shelf is an interactive book recommender app designed to help readers build their ideal summer reading list. Users can set preferences, view personalised recommendations, and explore review summaries to find their perfect book.
 
 ## Install Requirements
 pip install -r requirements.txt
@@ -11,6 +11,9 @@ streamlit run summer_shelf.py
 
 ## Deployment
 This app is deployed publicly on Streamlit. The code is available here in GitHub. 
+
+## Live App
+Try out Summer Shelf here: [SummerShelf on Streamlit](https://summershelf.streamlit.app/)
 
 ## Data
 The app uses the following pre-processed datasets, available in the data folder:
